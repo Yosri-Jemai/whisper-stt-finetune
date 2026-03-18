@@ -60,3 +60,10 @@ print(result["text"])
 ## Inference test
 
 The model was tested on a set of French audio samples from the [AdrienB134/Emilia-dataset-french-with-gender](https://huggingface.co/datasets/AdrienB134/Emilia-dataset-french-with-gender) dataset, covering both male and female speakers. Transcription output was acceptable — the model correctly captured the overall meaning and structure of sentences with only minor word-level differences from the ground truth.
+
+---
+
+> **Note — GitHub notebook rendering error**
+> GitHub may show: *"the 'state' key is missing from 'metadata.widgets'"* when trying to preview the notebook.
+> This is a known cosmetic issue caused by Colab's progress bar metadata — it does not affect the code in any way.
+> Download the notebook and open it locally in Jupyter or Colab and it will work fine.
